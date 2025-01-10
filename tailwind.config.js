@@ -6,6 +6,12 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+     
+      'DM': ["DM Sans", 'serif'],
+      'Nunito': ["Nunito", 'serif'],
+
+    }
   },
   plugins: [],
 }

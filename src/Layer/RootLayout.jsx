@@ -5,7 +5,7 @@ import Footer from '../Component/Footer'
 
 const RootLayout = () => {
   return (
-    <div>
+    <div className='font-DM'>
 
         <Navbar/>
         <Outlet/>
