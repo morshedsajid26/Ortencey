@@ -3,7 +3,7 @@ import Container from '../Layer/Container'
 
 const Home = () => {
   return (
-    <div className='bg-[#474747]'>
+    <div className='relative bg-[#474747]'>
         <Container className='flex items-center gap-[152px] pt-[263px] pb-[117px]'>
             <div className='w-[695px]'>
             <h3 className='bg-gradient-to-r from-[#FE651B] to-[#FFAA52] bg-clip-text text-transparent  text-[25px] font-medium  '>
@@ -29,7 +29,7 @@ const Home = () => {
 
             <div className='relative'>
                 <div className=' w-[569px] h-[569px] rounded-full bg-[#CCCCCC]'></div>
-                <div className='absolute bottom-[26px] left-[27.74px] w-[567px] h-[567px] rounded-full border border-gradient-to-r from-[#FE651B] to-[#FFAA52]'></div>
+                <div className='absolute bottom-[26px] left-[27.74px] w-[567px] h-[567px] rounded-full  bg-gradient-to-r from-[#FE651B] to-[#FFAA52] bg-clip-border border-transparent'></div>
             </div>
 
 
