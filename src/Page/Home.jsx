@@ -6,7 +6,7 @@ const Home = () => {
     <div className='bg-[#474747]'>
         <Container className='flex items-center gap-[152px] pt-[263px] pb-[117px]'>
             <div className='w-[695px]'>
-            <h3 className='text-gradient-to-r from-[#FE651B] to-[#FFAA52] text-[25px] font-medium  '>
+            <h3 className='bg-gradient-to-r from-[#FE651B] to-[#FFAA52] bg-clip-text text-transparent  text-[25px] font-medium  '>
                 Your Trusted Ortencey Agency
 
             </h3>
