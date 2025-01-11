@@ -3,7 +3,7 @@ import Container from '../Layer/Container'
 
 const Footer = () => {
   return (
-    <div className="bg-[url('/public/footer.png')] py-20 bg-black">
+    <div className="bg-[url('/public/footer.png')] pt-20 bg-black">
       <Container>
 
         <div className="top flex justify-between items-center border-b pb-[60px] border-[#393939]">
@@ -23,7 +23,26 @@ const Footer = () => {
 
         <div className="bottom"></div>
 
+
+        
       </Container>
+
+      <div className='bg-[#3661FC] py-[22px]'>
+        <Container className='flex justify-between items-center'>
+          <div className="left">
+            <p className='text-[16px] text-white'>2022 © All rights reserved by devsnest-llc</p>
+          </div>
+
+
+          <div className="right flex text-white gap-9 ">
+            <p className='text-[16px]'>Privacy Policy</p>
+            |
+            <p className='text-[16px]'> Terms & Conditions</p>
+          </div>
+        </Container>
+
+        </div>
+
     </div>
   )
 }
